@@ -1,4 +1,5 @@
 # space-spa-project
+Project created only for the desktop
 
 ## Project setup
 ```
