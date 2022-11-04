@@ -31,11 +31,12 @@ export default {
 .mars-page {
   margin-bottom: 65rem;
   & h3 {
-    text-align: center;
-    margin-top: 5rem;
-    font-size: 5rem;
-    text-transform: uppercase;
     color: #ee6b47;
+    font-size: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    
   }
 }
 </style>
