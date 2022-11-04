@@ -45,9 +45,9 @@ export default {
 
   & p {
     font-size: 2rem;
-    text-transform: uppercase;
     letter-spacing: 1rem;
     margin-bottom: 4rem;
+    text-transform: uppercase;
   }
 }
 </style>
