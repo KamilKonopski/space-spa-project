@@ -30,11 +30,12 @@ export default {
 <style lang="scss" scoped>
 .moon-element {
   & h3 {
-    text-align: center;
-    margin-top: 5rem;
-    font-size: 5rem;
-    text-transform: uppercase;
     color: #4d4d4d;
+    font-size: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    
   }
 }
 </style>
