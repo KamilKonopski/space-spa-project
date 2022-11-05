@@ -95,23 +95,24 @@ export default {
       width: 49%;
     }
     & img {
-      width: 100%;
       height: 35vh;
+      width: 100%;
     }
 
     & p {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 2.5rem;
       color: #fff;
+      font-size: 2.5rem;
+      left: 50%;
       opacity: 0;
+      position: absolute;
+      transform: translate(-50%, -50%);
       transition: 0.3s linear;
+      top: 50%;
     }
 
     &:hover {
       transform: scale(0.95);
+      
       & p {
         opacity: 1;
       }
