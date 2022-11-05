@@ -95,21 +95,23 @@ export default {
     }
 
     & p {
-      font-size: 2.2rem;
       color: #fff;
-      position: absolute;
-      top: 50%;
+      font-size: 2.2rem;
       left: 50%;
-      transform: translate(-50%, -50%);
       opacity: 0;
+      position: absolute;
+      transform: translate(-50%, -50%);
       transition: 0.3s linear;
+      top: 50%;
     }
+    
     & img {
       width: 100%;
     }
 
     &:hover {
       transform: scale(0.95);
+      
       & p {
         opacity: 1;
       }
