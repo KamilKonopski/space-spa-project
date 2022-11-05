@@ -12,14 +12,14 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  width: 100%;
   height: 10vh;
+  width: 100%;
 
   & p {
     color: #303131;
-    text-align: center;
     font-size: 2.2rem;
     line-height: 10vh;
+    text-align: center;
   }
 }
 </style>
