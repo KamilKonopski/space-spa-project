@@ -46,32 +46,34 @@ export default {
 
 <style lang="scss" scoped>
 .moon-element {
-  margin-top: 5rem;
   display: flex;
   justify-content: space-around;
+  margin-top: 5rem;
 
   &__img {
-    width: 32%;
     position: relative;
     transition: 0.3s linear;
+    width: 32%;
+    
     & img {
-      width: 100%;
       height: 50vh;
+      width: 100%;
     }
 
     & p {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 2.5rem;
       color: #000;
+      font-size: 2.5rem;
+      left: 50%;
       opacity: 0;
+      position: absolute;
       transition: 0.3s linear;
+      transform: translate(-50%, -50%);
+      top: 50%;
     }
 
     &:hover {
       transform: scale(0.95);
+      
       & p {
         opacity: 1;
       }
