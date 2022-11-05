@@ -16,16 +16,16 @@ export default {
 
 <style lang="scss" scoped>
 button {
-  width: 10%;
+  background-color: transparent;
   border: none;
   border-bottom: 1px solid #000;
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin-left: 5rem;
   padding: 1rem 3rem;
   text-transform: uppercase;
-  background-color: transparent;
-  font-size: 1.8rem;
-  cursor: pointer;
-  margin-left: 5rem;
-
+  width: 10%;
+  
   & span {
     display: inline-block;
     font-size: 2rem;
