@@ -41,13 +41,13 @@ export default {
   margin-top: 2rem;
 
   & .list-element {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 32%;
     height: 100vh;
+    justify-content: flex-start;
     margin: 0 auto;
+    width: 32%;
 
     &:nth-of-type(1) {
       background: url("../../assets/mars.jpg") no-repeat center center;
@@ -64,23 +64,23 @@ export default {
     & h2 {
       color: #fff;
       font-size: 2rem;
-      text-transform: uppercase;
       padding-top: 2rem;
+      text-transform: uppercase;
     }
 
     & button {
-      border: 1px solid #fff;
       background-color: transparent;
-      font-size: 1.5rem;
-      padding: 1rem 4rem;
+      border: 1px solid #fff;
       color: #fff;
       cursor: pointer;
-      transition: 0.2s linear;
+      font-size: 1.5rem;
       margin: auto;
+      padding: 1rem 4rem;
+      transition: 0.2s linear;
 
       &:hover {
-        border-color: #301374;
         background-color: #301374;
+        border-color: #301374;
       }
     }
   }
