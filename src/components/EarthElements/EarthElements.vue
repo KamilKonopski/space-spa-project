@@ -70,10 +70,11 @@ export default {
 
 <style lang="scss" scoped>
 .earth-element {
-  margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 5rem;
+  
   &__img {
     position: relative;
     transition: 0.3s linear;
